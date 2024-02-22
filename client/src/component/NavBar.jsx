@@ -1,11 +1,17 @@
 import React, { useContext } from 'react'
 import Logo from '../imgs/LOGO.png'
 import {Link} from 'react-router-dom'
+import {useEffect} from 'react'
 import {AuthContext} from '../context/authVerification'
 
 const NavBar = () => {
 
   const {user, logout} = useContext(AuthContext);
+
+  useEffect(() => {
+    document.title = 'The Blog';
+  }, []);
+
 
 
   return (
