@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
   
 const upload = multer({ storage });
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'http://106.14.57.212:3000',
     credentials: true,
 }));
 app.use(express.json())
