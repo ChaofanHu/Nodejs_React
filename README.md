@@ -1,3 +1,6 @@
+
+![project-img2](https://github.com/ChaofanHu/Nodejs_React/assets/143227493/6b2491d8-d9e3-47f9-85f1-6ece3c52403b)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
